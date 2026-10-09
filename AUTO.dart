@@ -9,6 +9,6 @@ class Auto {
     return 'Auto: $marca $modello, anno $anno.';
   }
   String isVintage() {
-    return anno < 1990 ? 'Yes' : 'No';
+    return anno < 2026 ? true : false;
   }
 } 
