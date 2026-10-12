@@ -8,7 +8,7 @@ class Auto {
   String descrizione() {
     return 'Auto: $marca $modello, anno $anno.';
   }
-  String isVintage() {
+  bool isVintage() {
     return anno < 2026 ? true : false;
   }
 } 
